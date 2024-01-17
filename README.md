@@ -16,5 +16,10 @@ The models are evaluated on Indian and standard datasets like Cityscapes, GTA5, 
 84.5% mIoU on SYNTHIA
 90.8% mIoU on the National Dataset for Indian Roads
 
+| Model | Cityscapes mIoU | SYNTHIA mIoU | 
+|-|-|-|  
+| SegFormer | 95.7% | 84.5% |
+| DAFormer | 96.4% | 85.2% |
+
 **Conclusion**
 Unsupervised domain adaptation is promising for semantic segmentation of complex Indian road scenes. DAFormer adapts better to target datasets and surpasses other architectures. More research is needed to handle varying conditions.
