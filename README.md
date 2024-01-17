@@ -1,6 +1,7 @@
 # Semantic Segmentation of Indian Road Scenes using Unsupervised Domain Adaptation
 
-##**Overview**
+## Overview
+
 This paper explores using unsupervised domain adaptation to improve semantic segmentation of Indian road scenes. Semantic segmentation assigns a class label to each pixel in an image and is useful for self-driving cars, traffic monitoring, etc. However, training models for Indian roads are challenging due to variability in conditions and a lack of labeled data.
 
 ##**Methods**
