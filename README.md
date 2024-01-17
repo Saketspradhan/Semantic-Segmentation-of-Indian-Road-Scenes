@@ -1,15 +1,15 @@
 # Semantic Segmentation of Indian Road Scenes using Unsupervised Domain Adaptation
 
-**Overview**
+##**Overview**
 This paper explores using unsupervised domain adaptation to improve semantic segmentation of Indian road scenes. Semantic segmentation assigns a class label to each pixel in an image and is useful for self-driving cars, traffic monitoring, etc. However, training models for Indian roads are challenging due to variability in conditions and a lack of labeled data.
 
-**Methods**
+##**Methods**
 Two models have been implemented and tested, namely, SegFormer and DAFormer. Both use encoder-decoder architectures based on transformers to output dense pixel predictions.
 
 SegFormer uses a hierarchical transformer encoder and simple MLP decoder to output multi-scale features.
 DAFormer is optimized for unsupervised domain adaptation using a transformer encoder and context-aware feature fusion decoder.
 
-**Experiments**
+##**Experiments**
 The models are evaluated on Indian and standard datasets like Cityscapes, GTA5, and SYNTHIA. 
 
 DAFormer outperforms other methods, achieving:
@@ -19,6 +19,8 @@ DAFormer outperforms other methods, achieving:
 | Cityscapes | 95.7% |
 | SYNTHIA | 84.5% |
 | National Dataset for Indian Roads | 90.8% |
+
+DAFormer and SegFormer can be compared as follows:
 
 | Model | Cityscapes mIoU | SYNTHIA mIoU | 
 |-|-|-|  
